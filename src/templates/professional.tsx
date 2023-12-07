@@ -384,16 +384,6 @@ const Professional: Template<TemplateRenderProps> = ({
             )}
           </div>
         </div>
-        {/* {c_associatedBlogs && <BlogPosts inpData={cpy}></BlogPosts>}
-        {c_associatedClientStories && (
-          <ClientStories inpData={cpy}></ClientStories>
-        )}
-        {c_associatedInsights && <Insights inpData={cpy} />}
-        {c_associatedFAQs && <FAQs inpData={cpy}></FAQs>}
-        {c_associatedSolutions && <Solutions inpData={cpy}></Solutions>}
-        <div className="my-6">
-          <Web2Lead></Web2Lead>
-        </div> */}
       </div>
       <span className="hidden md:block mt-8">
         <Image image={_site.c_deskFooter}></Image>
